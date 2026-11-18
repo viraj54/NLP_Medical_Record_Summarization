@@ -1,0 +1,13 @@
+Medical Record Summarization — Noncommercial Learning and Demonstration License
+Version 1 — 18 November 2026
+Copyright (c) 2026 viraj54
+
+Permission is granted to view, download, run, study and modify project-owned code and documentation for personal learning, noncommercial research, evaluation and free demonstrations. Noncommercial copies and GitHub forks may be redistributed if this license and copyright notice are retained and modifications are identified.
+
+Selling the material or derivatives, charging for access, incorporating it into a paid service or product, and other commercial exploitation require prior written permission from the copyright holder. No trademark or endorsement rights are granted.
+
+This license applies only to rights the project owner can grant. Datasets, pretrained models, dependencies and external materials retain their respective terms. Their authorship and licenses are not transferred by this notice.
+
+THE MATERIAL IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER IS NOT LIABLE FOR CLAIMS OR DAMAGES ARISING FROM ITS USE.
+
+All other rights are reserved. This is a custom noncommercial license, not an OSI-approved open-source license.

@@ -1,0 +1,20 @@
+{
+  "source": "Aggregate text output in uploaded notebook, cell 28; rounded to four decimals",
+  "source_notebook_sha256": "d3b11c7ce0a8e0501ccdabf4294703f5d2ec6f56855a7b9c92f0f52ce3f4fd58",
+  "dataset": "AGBonnet/augmented-clinical-notes",
+  "base_model": "facebook/bart-large-cnn",
+  "sample_size": 5000,
+  "split_seed": 42,
+  "train": 3500,
+  "validation": 750,
+  "test": 750,
+  "evaluated_test_examples": 50,
+  "recorded_entity_method": "regex fallback; SciSpaCy model unavailable",
+  "original_metric_labels": {
+    "Keyword preservation (regex)": "NER Preservation",
+    "Source-token overlap": "Factual Consistency",
+    "Lexicon concept F1": "MEDCON Score"
+  },
+  "input_comparison": "Pretrained inference uses first 1024 characters; fine-tuned inference uses complete note subject to tokenizer truncation. This asymmetry is retained and documented.",
+  "verification_scope": "Aggregate values extracted from recorded output; no per-example predictions or checkpoint supplied for recomputation."
+}
